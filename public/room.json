@@ -1,0 +1,26 @@
+[
+    {
+        "room_name": "Luxury Suite",
+        "picture": "https://example.com/images/suite.jpg",
+        "room_description": "Our luxury suite features a spacious bedroom and living area with elegant decor and modern amenities.",
+        "bed": "King size bed",
+        "price": 500,
+        "room_for": 2
+    },
+    {
+        "room_name": "Standard Double Room",
+        "picture": "https://example.com/images/double.jpg",
+        "room_description": "Our standard double room is perfect for couples or small families, with a comfortable bed and plenty of space.",
+        "bed": "Double bed",
+        "price": 150,
+        "room_for": 2
+    },
+    {
+        "room_name": "Family Suite",
+        "picture": "https://example.com/images/family.jpg",
+        "room_description": "Our family suite is ideal for larger groups or families, with multiple bedrooms and a shared living area.",
+        "bed": "Queen size beds",
+        "price": 700,
+        "room_for": 4
+    }
+]
