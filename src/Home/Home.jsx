@@ -12,7 +12,7 @@ const Home = () => {
                 <h3 className='text-3xl text-center font-semibold'>Lorem ipsum dolor sit.</h3>
             </div>
 
-            <div className='flex gap-6 mt-7 px-4'>
+            <div className='flex gap-6 mt-7 container  mx-auto '>
                 {
                     data.map(room=> <Card room={room} ></Card>)
                 }
