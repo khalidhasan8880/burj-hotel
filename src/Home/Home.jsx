@@ -14,7 +14,7 @@ const Home = () => {
 
             <div className='flex gap-6 mt-7 container  mx-auto '>
                 {
-                    data.map(room=> <Card room={room} ></Card>)
+                    data.map(room=> <Card key={room.picture} room={room} ></Card>)
                 }
             </div>
         </div>
