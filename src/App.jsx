@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Outlet></Outlet>
+      <Outlet></Outlet>   
     </>
   )
 }

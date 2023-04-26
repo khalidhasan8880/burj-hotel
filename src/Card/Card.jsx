@@ -1,10 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Card = ({ room }) => {
+    const navigate = useNavigate()
 
     const { room_name, room_description, picture, bed, price, room_for } = room
     const bookHandler = () => {
-        console.log('she amare click marche');
+        navigate('/booked')
     }
     return (
         <div>

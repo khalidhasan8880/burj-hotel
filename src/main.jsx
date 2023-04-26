@@ -12,6 +12,7 @@ import Home from './Home/Home.jsx';
 import Login from './Login/Login.jsx';
 import SignUp from './SignUp/SignUp.jsx';
 import AuthProvider from './AuthProvider/AuthProvider.jsx';
+import Booked from './Booked/Booked.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'sign-up',
         element: <SignUp></SignUp>
+      },
+      {
+        path: 'booked',
+        element: <Booked></Booked>
       },
     ]
   },
