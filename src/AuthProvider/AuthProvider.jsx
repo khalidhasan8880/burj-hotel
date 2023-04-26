@@ -42,19 +42,7 @@ const AuthProvider = ({children}) => {
         }
     },[])
 
-    const fakeDb=(id)=>{
-        let shoppingCart ;
-        const getShoppingCart = localStorage.getItem('shopping-cart')
-        if (getShoppingCart) {
-            shoppingCart = JSON.parse(getShoppingCart)
-        }else{
-            shoppingCart = {}
-        }
-
-
-        // set localStorage 
-        localStorage.setItem(JSON.stringify(shoppingCart))
-    }
+  
     const authInfo = {
         createUser,
         login,
@@ -62,8 +50,7 @@ const AuthProvider = ({children}) => {
         updateUserData,
         facebookLogin,
         verifyEmail,
-        logOut,
-        fakeDb
+        logOut
     }
     return (
         <AuthContext.Provider value={authInfo}>
