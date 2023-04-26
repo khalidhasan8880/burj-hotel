@@ -4,12 +4,15 @@ import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const Card = ({ room }) => {
     const navigate = useNavigate()
-    const {user} = useContext(AuthContext)
+    const {user, fakeDb} = useContext(AuthContext)
     const { room_name, room_description, picture, bed, price, room_for } = room
     const bookHandler = () => {
         if (!user) {
             return navigate('/login')
         }
+
+
+        
     }
     return (
         <div>
